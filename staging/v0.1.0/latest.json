@@ -5,11 +5,11 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWpINnFuQWFOY3dDWk9WNmZJZjdCZFQ1SytoNkFxb2IrOXBhNWtHRjAwdjRXY1FFYk5Mc2ZCN2QrUVVPY1pLd1RKeWd6K1NPNlR4VUZxcy9qQTB4dlVaaEhhd0hJRmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc5NTY0CWZpbGU6Q2xhdmV4IExlZ2FsIFN1aXRlXzAuMS4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMApadU5XR0drVWhwMmN5ejVPOVBwWXd0T1RoWWZvUjVsQUR2Y1ZQeDdrcmpKYU43WTZmaS9nZE82YXcydGNSSWJQUzdWUkF5NGUvSVFSWDMxOHVsaGlEZz09Cg==",
-      "url": "https://github.com/Toroinpiedi97/clavex-releases/releases/download/v0.1.0/Clavex%20Legal%20Suite_0.1.0_x64-setup.exe"
+      "url": "https://github.com/Toroinpiedi97/clavex-releases/releases/download/v0.1.0/Clavex.Legal.Suite_0.1.0_x64-setup.exe"
     },
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSWpINnFuQWFOYzlmNXY0NnZaRVhRbG5EdjJ5Tis1L0ptWjRiWldKR2dLdWFCYjQ2T3JYYURyVnBiSVFIa1RYZERYWHJud3BtTWhqeFJha3lxTy8xR2NBVVAwRlREeUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc5NTY0CWZpbGU6Q2xhdmV4IExlZ2FsIFN1aXRlLmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMApEczhtN001VDBmZUF5L3pEV1BzcTErUUhYRDkxSysrZGcyQ1IzLzljNzBPM2xVa09scDVudmp4MVdCd0xlSkxZc0hIVDhYYlZmWWFiY0VDTGdjZDlEZz09Cg==",
-      "url": "https://github.com/Toroinpiedi97/clavex-releases/releases/download/v0.1.0/Clavex%20Legal%20Suite.app.tar.gz"
+      "url": "https://github.com/Toroinpiedi97/clavex-releases/releases/download/v0.1.0/Clavex.Legal.Suite.app.tar.gz"
     }
   }
 }
