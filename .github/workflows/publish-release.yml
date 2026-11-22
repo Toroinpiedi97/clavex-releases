@@ -1,0 +1,37 @@
+name: Publish Staged Signed Release Assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "staging/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-assets:
+    name: Upload Staged Assets to GitHub Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Publish staged release directories
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          shopt -s nullglob
+          for dir in staging/v*; do
+            if [ -d "$dir" ]; then
+              TAG="$(basename "$dir")"
+              echo "Publishing signed assets for $TAG..."
+              if gh release view "$TAG" >/dev/null 2>&1; then
+                gh release upload "$TAG" "$dir"/* --clobber
+              else
+                gh release create "$TAG" "$dir"/* --title "Clavex Legal Suite $TAG" --notes "Clavex Legal Suite $TAG — Release desktop firmata (Minisign / Ed25519)."
+              fi
+            fi
+          done
